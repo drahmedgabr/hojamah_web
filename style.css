@@ -65,7 +65,7 @@ body {
 
 .swiper-slide h1 {
     position: absolute;
-    bottom: 80px;
+    bottom: 12vh;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -75,10 +75,10 @@ body {
 
 .contact-button {
     position: fixed;
-    bottom: 20px;
+    bottom: 4vh;
     right: 20px;
     left: 20px;
-    height: 60px;
+    height: 8vh;
     z-index: 1001;
 }
 
@@ -160,15 +160,15 @@ body {
 @media (min-width: 768px) {
 
     .swiper-slide h1 {
-        bottom: 120px;
+        bottom: 14vh;
         font-size: 3.5em;
         padding: 30px;
     }
 
     .contact-button {
         font-size: 1.5em;
-        bottom: 40px;
-        height: 80px;
+        bottom: 6vh;
+        height: 8vh;
     }
 
     .contact-button button {
@@ -205,15 +205,15 @@ body {
 @media (min-width: 992px) {
 
     .swiper-slide h1 {
-        bottom: 150px;
+        bottom: 18vh;
         font-size: 4em;
         padding: 40px;
     }
 
     .contact-button {
         font-size: 2em;
-        bottom: 40px;
-        height: 110px;
+        bottom: 8vh;
+        height: 10vh;
     }
 
     .contact-button button {
