@@ -74,6 +74,15 @@ body {
 }
 
 @supports (height: 100dvh) {
+
+    .swiper {
+        height: 100dvh;
+    }
+
+    .swiper-slide img {
+        height: 100dvh;
+    }
+
     .swiper-slide h1 {
         bottom: 12dvh;
     }
